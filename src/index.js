@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './pages/app/App';
 import reportWebVitals from './reportWebVitals';
+import { HashRouter } from 'react-router-dom';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 /**
  * Entry point for the application.
@@ -9,7 +12,9 @@ import reportWebVitals from './reportWebVitals';
  */
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+      <App />
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

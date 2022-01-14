@@ -1,4 +1,4 @@
-import CustomButton from "./CustomButton/CustomButton";
-import CustomButtonClass from "./CustomButtonClass/CustomButtonClass";
+import AppNavbar from "./Navbar/Navbar";
+import Sidebar from "./Sidebar/Sidebar";
 
-export { CustomButton, CustomButtonClass };
+export { AppNavbar, Sidebar };
